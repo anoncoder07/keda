@@ -71,6 +71,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.19.1
 	github.com/onsi/gomega v1.34.1
 	github.com/open-policy-agent/cert-controller v0.10.1
+	github.com/oracle/oci-go-sdk/v65 v65.72.0
 	github.com/phayes/freeport v0.0.0-20220201140144-74d24b5ae9f5
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.19.1
@@ -117,6 +118,11 @@ require (
 	sigs.k8s.io/controller-tools v0.15.0
 	sigs.k8s.io/custom-metrics-apiserver v1.29.0
 	sigs.k8s.io/kustomize/kustomize/v5 v5.4.3
+)
+
+require (
+	github.com/gofrs/flock v0.8.1 // indirect
+	github.com/sony/gobreaker v0.5.0 // indirect
 )
 
 // Remove this when they merge the PR and cut a release https://github.com/open-policy-agent/cert-controller/pull/202
